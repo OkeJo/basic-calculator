@@ -1,0 +1,74 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
+/* common styles */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F1F8;
+    color: #4E5255;
+  }
+
+  button {
+    background-color: #FBDBC1;
+    border-color: #92979B;
+  }
+  
+  /* common styles end */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 48px);
+    grid-template-rows: repeat(5, 48px);
+    gap: 5px;
+}
+
+.display {
+    grid-row: 1;
+    grid-column: 1 / 5;
+    border: 1px solid #92979B;
+}
+
+.input {
+    background-color: #FBDBC1;
+    color: #4E5255;
+}
+
+.row-2 {
+    grid-row: 2;
+}
+.row-3 {
+    grid-row: 3;
+}
+.row-4 {
+    grid-row: 4;
+}
+.row-5 {
+    grid-row: 5;
+}
+
+.col-1 {
+    grid-column: 1;
+}
+.col-2 {
+    grid-column: 2;
+}
+.col-3 {
+    grid-column: 3;
+}
+.col-4 {
+    grid-column: 4;
+}
+
+button {
+    height: 48px;
+    width: 48px;
+}
